@@ -1,0 +1,34 @@
+.naviation__image-logo__normal-size {
+    width: 3rem;
+}
+
+.navigation{
+    background-color: $color-site;
+}
+
+.nav-link {
+    color : $white;
+    font-size: $font-medium;
+    opacity: 1;
+    font-weight: $roboto-regular;
+
+    &:hover{
+        color : $fuzzywuzzy;
+    }
+}
+
+%remove-border-toggler{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler{
+    &:hover ,&:active{
+        @extend %remove-border-toggler;
+    }
+}
+
+.navbar-toggler-icon:focus {
+    @extend %remove-border-toggler;
+}
+

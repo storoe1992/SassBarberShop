@@ -1,0 +1,20 @@
+.header__container {
+    height: 90vh;
+    background-image: url("../img/post-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__title-site{
+    max-width: 50%;
+    font-size: $font-xx-large;
+    font-family: $playfair;
+    font-weight: $playfair-black-italy;
+    opacity: 1;
+
+    @media (max-width : 768px) {
+        font-size: 40px;
+        max-width: 90%;
+    }
+}

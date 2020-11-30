@@ -1,0 +1,20 @@
+%commons_text_blocks_main {
+    opacity: 1;
+    color: #222323;
+    font-weight: $roboto-light;
+    font-size: $font-medium;
+}
+
+.main__site-description{
+   @extend %commons_text_blocks_main;
+
+   .main__span{
+    color: $ruddypink;
+    }
+}
+
+.main__date-site {
+    @extend %commons_text_blocks_main;
+}
+
+

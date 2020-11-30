@@ -1,0 +1,47 @@
+.author_thumbails-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.author__name{
+    opacity: 1;
+    font-size: 1.875rem;
+    font-family: $playfair;
+    font-weight: $playfair-black-italy;
+    color: #121619;
+    margin-block-start : 0px;
+    margin-block-end : 0px;
+}
+
+.author__description{
+    font-weight: $roboto-regular;
+    color: #707070;
+    font-size: 0.875rem;
+    opacity: 1;
+    stroke-linecap: butt;
+}
+
+.author {
+    border-top:  1px solid $platinum;
+    border-bottom : 1px solid $platinum;
+}
+
+.author__info-container{
+    padding-bottom: auto;   
+    padding-top: auto;   
+    height:  8.875rem;
+}
+
+.author__description-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+

@@ -1,0 +1,13 @@
+.pagination__container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column wrap;
+    height:  8.875rem;
+}
+
+.pagination {
+    background-color: $platinum;
+}

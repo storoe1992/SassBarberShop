@@ -1,0 +1,40 @@
+%author__social-network_commons{
+    font-weight: $roboto-light;
+    font-size: 1.25rem;
+    font-family: $roboto;
+    text-decoration: none;
+}
+
+.author__link-primary{
+    @extend %author__social-network_commons;
+    color: $ruddypink;
+    opacity: 0.7;
+
+    &:active{
+        opacity: 1;
+        color : $platinum;
+    }
+}
+
+.author__link-primary__focused{
+    &:hover{
+        opacity: 1;
+        color : $raisinblack;
+    }
+}
+
+.author__link__secondary{
+    @extend %author__social-network_commons;
+    color: $raisinblack;
+    opacity: 1;
+}
+
+.author__link__dark{
+    @extend %author__social-network_commons;
+    color: $color-site;
+    opacity: 1;
+}
+
+
+
+

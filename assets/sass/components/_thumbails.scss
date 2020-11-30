@@ -1,0 +1,25 @@
+.author__thumbails{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 11.125rem;
+    height:  11.125rem;
+
+    &-image{
+        width: 11.125rem;
+    }
+
+}
+    
+
+@media (max-width : 768px){
+
+    .author__thumbails{
+        width: 8.25rem;
+        height: 8.25rem;
+
+        &-image{
+            width: 8.25rem;
+        }
+    }     
+    
+}

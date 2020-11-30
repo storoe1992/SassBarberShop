@@ -1,0 +1,66 @@
+.page-item.active .page-link {
+  background-color: $nickel;
+  border-color: $nickel;
+}
+
+.page-link {
+  font-family: $roboto;
+  color: $nickel;
+  font-weight: $roboto-regular;
+  font-size: $font-medium;
+  text-align: left;
+
+  &:hover {
+    color: $nickel;
+  }
+
+  &:focus {
+    box-shadow: 0px 0px;
+  }
+}
+
+$navigation-border: 1.25rem;
+
+.page-item {
+  &:last-child {
+    .page-link {
+      border-top-right-radius: $navigation-border;
+      border-bottom-right-radius: $navigation-border;
+    }
+  }
+
+  &:first-child {
+    .page-link {
+      border-top-left-radius: $navigation-border;
+      border-bottom-left-radius: $navigation-border;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  %small-page-link {
+    width: 75px;
+    height: 36px;
+    font-size: $font-small;
+  }
+
+  .page-item {
+    & {
+      .page-link {
+        height: 36px;
+      }
+    }
+
+    &:last-child {
+      .page-link {
+        @extend %small-page-link;
+      }
+    }
+
+    &:first-child {
+      .page-link {
+        @extend %small-page-link;
+      }
+    }
+  }
+}

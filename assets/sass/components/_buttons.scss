@@ -1,0 +1,14 @@
+
+$button-share-radius : 2rem;
+
+.share__button-share{
+    height: 3.188rem;
+    opacity: 0.6;
+    border-top-left-radius: $button-share-radius;
+    border-top-right-radius: $button-share-radius;
+    border-bottom-left-radius: $button-share-radius;
+    border-bottom-right-radius: $button-share-radius;
+    background-color: #121619;
+    padding: 0rem 1rem 0rem 1rem;
+    color : white;
+}
